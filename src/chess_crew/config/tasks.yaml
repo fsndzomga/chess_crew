@@ -1,0 +1,8 @@
+next_move:
+  description: >
+    Conduct a thorough analysis of board state {board} and moves history so far {moves}
+    Predict the best next move
+    Here is the list of legal move {legal_moves}
+    Here is the feedback {feedback}
+  expected_output: >
+    The best next move. And only the move, nothing else.
